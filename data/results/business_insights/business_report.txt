@@ -3,7 +3,7 @@
 CHURN PREDICTION - BUSINESS INSIGHTS REPORT
 ================================================================================
 
-📅 Report Date: 2026-04-22 16:03
+📅 Report Date: 2026-04-22 17:43
 📊 Model: Stacking Ensemble (LightGBM + XGBoost + CatBoost)
 🎯 Threshold: 0.39
 📈 Performance: ROC-AUC=0.6303, Recall=0.8978
