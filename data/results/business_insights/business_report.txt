@@ -1,0 +1,88 @@
+
+================================================================================
+CHURN PREDICTION - BUSINESS INSIGHTS REPORT
+================================================================================
+
+📅 Report Date: 2026-04-22 16:03
+📊 Model: Stacking Ensemble (LightGBM + XGBoost + CatBoost)
+🎯 Threshold: 0.39
+📈 Performance: ROC-AUC=0.6303, Recall=0.8978
+
+================================================================================
+KEY FINDINGS
+================================================================================
+
+1. CUSTOMER SEGMENTATION
+           Count  Avg_Churn_Prob  Min_Prob  Max_Prob  Actual_Churn_Rate
+segment                                                                
+Loyal          2          0.1907    0.1899    0.1915             0.0000
+Normal      7405          0.4136    0.2018    0.5000             0.3314
+At Risk     5946          0.5776    0.5000    0.6999             0.4970
+High Risk    647          0.7432    0.7002    0.8598             0.6723
+
+2. HIGH-RISK CUSTOMERS
+   • Total: 647 customers
+   • Average churn probability: 74.32%
+   • Immediate action required for top 500 customers
+
+3. FINANCIAL IMPACT
+   • Potential revenue at risk: $3,296,500
+   • Estimated retention cost: $659,300
+   • Expected ROI: 150-300%
+
+================================================================================
+RECOMMENDED ACTIONS
+================================================================================
+
+Priority 1 (CRITICAL): High Risk Segment
+📞 تماس فوری با مشتری توسط تیم retention
+💰 ارائه تخفیف ویژه 20-30% برای 3 ماه آینده
+🔍 بررسی دقیق مشکلات و شکایات مشتری
+🎁 ارائه خدمات رایگان (مثل tech support premium)
+📋 پیگیری هفتگی تا کاهش ریسک
+
+Priority 2 (HIGH): At Risk Segment
+📧 ارسال ایمیل شخصی‌سازی شده با پیشنهادات ویژه
+⬆️ پیشنهاد upgrade به پلن بهتر با قیمت ترجیحی
+🛠️ بهبود کیفیت خدمات (مثل افزایش سرعت اینترنت)
+📊 نظرسنجی رضایت و شناسایی نقاط ضعف
+🎯 افزایش engagement از طریق محتوای ارزشمند
+
+Priority 3 (MEDIUM): Normal Segment
+🏆 دعوت به برنامه وفاداری با امتیازات ویژه
+🛍️ پیشنهاد cross-sell (محصولات مکمل)
+📱 ارسال نوتیفیکیشن درباره ویژگی‌های جدید
+💬 جمع‌آوری feedback برای بهبود خدمات
+🎉 تبریک سالگرد عضویت با هدیه کوچک
+
+Priority 4 (LOW): Loyal Segment
+⭐ حفظ کیفیت خدمات فعلی
+🤝 دعوت به referral program با پاداش
+👑 ارتقا به VIP status با مزایای اختصاصی
+📢 استفاده از testimonial و case study
+🎁 ارسال هدایای تشکر در مناسبت‌ها
+
+================================================================================
+NEXT STEPS
+================================================================================
+
+1. ✅ Review high-risk customer list (high_risk_customers.csv)
+2. ✅ Implement retention campaigns for High Risk & At Risk segments
+3. ✅ Monitor campaign effectiveness weekly
+4. ✅ Retrain model monthly with new data
+5. ✅ A/B test different retention strategies
+
+================================================================================
+FILES GENERATED
+================================================================================
+
+📁 ../data/results/business_insights/
+   ├── customer_segmentation.png
+   ├── executive_dashboard.png
+   ├── segment_profiles.csv
+   ├── roi_analysis.csv
+   ├── recommendations.txt
+   ├── high_risk_customers.csv
+   └── business_report.txt
+
+================================================================================

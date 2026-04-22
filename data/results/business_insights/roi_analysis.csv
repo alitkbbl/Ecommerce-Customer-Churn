@@ -1,0 +1,5 @@
+Segment,Customers,Expected_Churners,Intervention_Cost,Retained_Customers,Revenue_Saved,Net_Benefit,ROI_%
+Loyal,2,0,$20,0,$0,$-20,-100.0%
+Normal,7405,2454,"$222,150",1717,"$1,717,812","$2,011,005",905.2%
+At Risk,5946,2955,"$416,220",1477,"$1,477,581","$1,504,635",361.5%
+High Risk,647,434,"$97,050",173,"$173,991","$129,139",133.1%
