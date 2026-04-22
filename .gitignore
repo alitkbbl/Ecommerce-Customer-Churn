@@ -1,6 +1,52 @@
-/models
-/data/processed
-/data/raw
-/data/results/feature_importance_stacking.csv
-/data/results/business_insights
-/data/results/threshold_metrics.csv
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+notebooks/catboost_info/
+
+# Models (usually too large for git)
+models/*.pkl
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Results - keep PNGs, ignore other outputs
+data/results/*.csv
+data/results/*.txt
+data/results/business_insights/*.csv
+data/results/business_insights/*.txt
+
+# Environment
+.env
+.venv
