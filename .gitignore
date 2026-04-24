@@ -47,6 +47,3 @@ data/results/*.txt
 data/results/business_insights/*.csv
 data/results/business_insights/*.txt
 
-# Environment
-.env
-.venv
